@@ -1,27 +1,17 @@
-module.exports = {
-    app: {
-        token: 'XXX',
-        playing: 'by Zerio ❤️',
-        global: true,
-        guild: 'XXX'
-    },
+{
+    "TOKEN":"TOKEN",
+    "prefix":"!",
+    "access_token":"API MERCADO PAGO",
+    "nomebot":"Rage Store",
+    "canalvoz":"ID CANAL ONDE O BOT FICARÁ ( CANAL TEM QUE SER DE VOZ )",
+    "cor":"#000000",
+    "botao":"SECONDARY",
+    "logpublica":"ID DO CANAL ONDE MOSTRARA PUBLICAMENTE QUEM COMPROU",
+    "canallogs":"ID DO CANAL DE LOGS PRIVADA P/ADMS",
+    "catecarrinho":"ID DA CATEGORIA ONDE SERÁ ABERTO O CARRINHO DE COMPRAS",
+    "cargovip":"ID DO CARGO QUE O COMPRADOR RECEBERÁ AO REALIZAR UMA COMPRA",
+    "fotoembed":"FOTO"
+}
 
-    opt: {
-        DJ: {
-            enabled: false,
-            roleName: '',
-            commands: []
-        },
-        maxVol: 100,
-        leaveOnEnd: true,
-        loopMessage: false,
-        spotifyBridge: true,
-        defaultvolume: 75,
-        discordPlayer: {
-            ytdlOptions: {
-                quality: 'highestaudio',
-                highWaterMark: 1 << 25
-            }
-        }
-    }
-};
+
+        
